@@ -1,0 +1,26 @@
+* { outline: 1px green;
+font-family: monospace;}
+
+h1{
+  color: white;
+  background-color: #ff4c00;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: lighter;
+  text-decoration: none;
+  text-align: center;
+  font-family: monospace;
+  padding: 10px 0px 10px 0px;
+  border: .1em solid #ff4c00;
+  }
+
+heading {color:orange;
+          font-size: 28;
+          font-style: italic;
+    }
+centered {text-align:center;
+    }
+img {
+  height: 125px;
+  width: 125px;
+}

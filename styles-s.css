@@ -1,0 +1,37 @@
+* {
+  font-family:monospace
+}
+h1{
+  color: white;
+  background-color: #ff4c00;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: lighter;
+  text-decoration: none;
+  text-align: center;
+  font-family: monospace;
+  padding: 10px 0px 10px 0px;
+  border: .1em solid #ff4c00;
+  }
+}
+
+.business {color:red;}
+.centered {
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.BusinessTile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.BurgerKingTile {}
+.McDonaldsTile {}
+.Pub217Tile {}
+.SauceTile {}

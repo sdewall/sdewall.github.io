@@ -1,0 +1,64 @@
+* {font-family: monospace; background-color: beige;}
+
+
+h1{
+  color: white;
+  background-color: #ff4c00;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: lighter;
+  text-decoration: none;
+  text-align: center;
+  font-family: monospace;
+  padding: 10px 0px 10px 0px;
+  border: .1em solid #ff4c00;
+  }
+
+  h2{
+    color:#ff4c00;
+    background-color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: center;
+    font-family: monospace;
+    padding: 10px 0px 10px 0px;
+    border: .1em solid #ff4c00;
+    }
+
+/* class */
+.Wiki { font-size:200%;}
+.centered {
+  text-align: center;
+}
+
+.even {
+  text-align: center;
+  margin: 30pt;
+  padding: 30pt;
+}
+.intro {
+  text-align: left;
+  color: purple;
+  font-style: underline;
+}
+
+/* id */
+#testid { color: red;}
+
+ul {color: Black; padding: 2em; }
+
+nav a { margin-left: 3em;}
+nav a.first{margin-left: 0;}
+
+/* applies the rules to html with emphasis */
+em {color: purple; }
+
+/* links */
+a {color: rgb(119,39,163); }
+/* RGBA includes a transpacancy value 0-1 */
+/* a:visited {color: rgba(119,39,163,0.1); } */
+a:visited {color: green; }
+a:active {outline: 10px black solid;}
+/* a:hover {font-size: 500%; text-shadow: 8px 8px #ff0000; outline: 10pt pink solid;} */
